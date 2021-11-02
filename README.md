@@ -1,5 +1,11 @@
 # gatsby-ipfs-web-wallet
 
+This is a frozen, archived copy of [gatsby-ipfs-web-wallet](https://github.com/Permissionless-Software-Foundation/gatsby-ipfs-web-wallet) [v1.25.23](https://github.com/Permissionless-Software-Foundation/gatsby-ipfs-web-wallet/tree/v1.25.3). The purpose of this archive was to have an easily accessible copy before we made the switch to IPFS-based infrastructure. This version does not use ipfs-coord, it only uses the centralized REST API service.
+
+---
+
+# gatsby-ipfs-web-wallet
+
 This repository is a Gatsby Theme. It can be accessed via the [gatsby-ipfs-web-wallet npm package](https://www.npmjs.com/package/gatsby-ipfs-web-wallet). It is used by the [bch-wallet-starter Gatsby Starter](https://github.com/Permissionless-Software-Foundation/bch-wallet-starter)
 
 If you want to create your own BCH web wallet app, you should [start with the starter](https://github.com/Permissionless-Software-Foundation/bch-wallet-starter).
@@ -10,10 +16,11 @@ If you want to create your own BCH web wallet app, you should [start with the st
 - [Official FullStack.cash wallet](https://wallet.fullstack.cash)
 
 ## Background
+
 This is a mobile-first Gatsby Theme that is [IPFS](https://ipfs.io)-ready. It integrates the [AdminLTE Dashboard React components](https://www.npmjs.com/package/adminlte-2-react) to create a dashboard. This app is built as a light-weight Bitcoin Cash (BCH) wallet. It can be forked and the BCH functionality can be leveraged for many different use cases, and to solve many different business problems.
 
-
 ## Installing a Dev Environment
+
 Standard workflow for setting up a development environment for working on this repo:
 
 - `git clone https://github.com/Permissionless-Software-Foundation/gatsby-ipfs-web-wallet`
@@ -24,4 +31,3 @@ Standard workflow for setting up a development environment for working on this r
 ## License
 
 [MIT](./LICENSE.md)
-
