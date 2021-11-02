@@ -1,6 +1,6 @@
 # gatsby-ipfs-web-wallet
 
-This is a frozen, archived copy of [gatsby-ipfs-web-wallet](https://github.com/Permissionless-Software-Foundation/gatsby-ipfs-web-wallet) [v1.25.23](https://github.com/Permissionless-Software-Foundation/gatsby-ipfs-web-wallet/tree/v1.25.3). The purpose of this archive was to have an easily accessible copy before we made the switch to IPFS-based infrastructure. This version does not use ipfs-coord, it only uses the centralized REST API service.
+This is a frozen, archived copy of [gatsby-ipfs-web-wallet](https://github.com/Permissionless-Software-Foundation/gatsby-ipfs-web-wallet) [v1.25.3](https://github.com/Permissionless-Software-Foundation/gatsby-ipfs-web-wallet/tree/v1.25.3). The purpose of this archive was to have an easily accessible copy before we made the switch to IPFS-based infrastructure. This version does not use ipfs-coord, it only uses the centralized REST API service.
 
 ---
 
