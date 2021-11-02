@@ -1,0 +1,71 @@
+{
+  "name": "gatsby-ipfs-web-wallet",
+  "description": "A GatsbyJS Theme with AdminLTE integration and basic Bitcoin Cash wallet functionality.",
+  "version": "1.9.13",
+  "main": "index.js",
+  "author": "Chris Troutner <chris.troutner@gmail.com>",
+  "contributors": [
+    "Daniel Gonzalez <danielhumgon@gmail.com>",
+    "Andre Cabrera <andrecabrera@protonmail.ch>"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "build:ipfs": "gatsby build --prefix-paths",
+    "develop": "gatsby develop",
+    "lint": "standard --env mocha --fix",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "npm run lint"
+  },
+  "dependencies": {
+    "@chris.troutner/gatsby-plugin-ipfs": "^2.0.3",
+    "adminlte-2-react": "^0.1.27",
+    "copy-to-clipboard": "^3.3.1",
+    "gatsby": "^3.7.2",
+    "gatsby-plugin-image": "^1.7.1",
+    "gatsby-plugin-manifest": "^3.7.1",
+    "gatsby-plugin-offline": "^4.7.1",
+    "gatsby-plugin-react-helmet": "^4.7.1",
+    "gatsby-plugin-sharp": "^3.7.1",
+    "gatsby-source-filesystem": "^3.7.1",
+    "gatsby-transformer-sharp": "3.7.1",
+    "prop-types": "^15.7.2",
+    "qrcode.react": "^1.0.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-jdenticon": "0.0.9",
+    "react-qr-reader": "^2.2.1",
+    "react-redux": "^7.2.4"
+  },
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-standard": "^5.0.0",
+    "husky": "^4.3.8",
+    "prettier": "2.2.1",
+    "semantic-release": "^17.3.7",
+    "standard": "^16.0.3"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Permissionless-Software-Foundation/gatsby-ipfs-web-wallet"
+  },
+  "bugs": {
+    "url": "https://github.com/Permissionless-Software-Foundation/gatsby-ipfs-web-wallet/issues"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
+  }
+}
